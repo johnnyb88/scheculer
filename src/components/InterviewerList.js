@@ -19,9 +19,9 @@ onChangeInterviewer:function - a function that accepts an interviewer id
         key={interviewer.id}
         name={interviewer.name}
         avatar={interviewer.avatar}
-        selected={props.interviewer === interviewer.id}
+        selected={props.value === interviewer.id}
         onChangeInterviewer={() => {
-          return props.onChangeInterviewer(interviewer.id);
+         props.onChange(interviewer.id);
         }}
         />
     })}
