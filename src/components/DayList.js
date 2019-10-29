@@ -1,5 +1,5 @@
 import React from "react";
-import DayListItem from "./DayListItem"
+import DayListItem from "./DayListItem";
 
 /* PROPS
 days:Array a list of day objects (each object includes an id, name, and spots)

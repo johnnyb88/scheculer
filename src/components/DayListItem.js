@@ -31,20 +31,12 @@ export default function DayListItem(props) {
     }
 
   return (
-    <li className={dayClass} onClick={() => props.setDay(props.name)}>
-      <h2 className="text--regular">{props.name}</h2>
-      <h3 className="text--light">{formatSpots()}</h3>
+    <li className={dayClass} onClick={props.setDay}>
+      <h2>{props.name}</h2>
+      <h3>{formatSpots()}</h3>
     </li>
   );
 }
 
-// ReactDom.render(
-//   <DayListItem
-//   name={day.name}
-//   spots={day.spots}
-//   selected={day.name === props.day}
-//   setDay={props.setDay}
-//   />,
-//   document.getElementById("root")
-// );
+
 
