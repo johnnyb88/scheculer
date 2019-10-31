@@ -21,10 +21,10 @@ export default function DayListItem(props) {
       switch (props.spots) {
         case 0:
           return `no spots remaining`;
-          // break;
+          
         case 1:
           return `1 spot remaining`
-          // break;
+          
         default:
           return `${props.spots} spots remaining`;
       }
