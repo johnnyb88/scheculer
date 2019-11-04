@@ -1,5 +1,6 @@
 import React from "react";
 
+// ----- contains reference to the time of the appointment and a seperator line ----- //
 export default function Empty(props) {
   return (
   <header className="appointment__time">

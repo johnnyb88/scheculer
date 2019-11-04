@@ -2,11 +2,16 @@ import React, { useState } from 'react';
 import InterviewerList from 'components/InterviewerList';
 import Button from 'components/Button';
 
-
+/* -----
+  User inputs their information, saves it and edits it.
+  tracks state of two elements (current text input as string and
+  selected interviewer as a number).
+----- */
 export default function Form(props) {
   const [name, setName] = useState(props.name || "");
   const [interviewer, onChangeInterviewer] = useState(props.value || null);
 
+  // ----- Clears the form values ----- //
   const reset = () => {
     setName("");
     onChangeInterviewer(null);

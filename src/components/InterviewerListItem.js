@@ -10,6 +10,7 @@ selected:boolean - to determine if an interview is selected or not
 onChangeInterviewer:function - sets the interviewer upon selection
 */
 
+// ----- shows all data for a single interviewer ----- //
 export default function InterviewerListItem(props) {
   const interviewerClass = classNames("interviewers__item", {
     "interviewers__item--selected": props.selected,

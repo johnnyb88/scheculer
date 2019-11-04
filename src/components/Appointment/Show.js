@@ -7,6 +7,10 @@ onEdit:Function to be called when the user clicks the Edit button
 onDelete:Function to be called when the user clicks the Delete button
 */
 
+
+/* ----- When interview is booked Show is used for the view
+         user can hover over appointment revealing an edit and delete
+         button. ----- */
 export default function Show(props) {
   
   return (

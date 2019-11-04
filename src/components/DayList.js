@@ -7,7 +7,7 @@ day:String the currently selected day
 setDay:Function accepts the name of the day eg. "Monday", "Tuesday" 
 */
 
-
+// ----- renders list all individual day items ---- //
 export default function DayList(props) {
 
     return (
@@ -20,7 +20,7 @@ export default function DayList(props) {
               spots={day.spots}
               selected={day.name === props.day}
               setDay={() => {
-                return props.setDay(day.name)
+                return props.setDay(day.name);
               }}
               />
           )

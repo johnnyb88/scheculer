@@ -1,5 +1,6 @@
 import React from "react";
 
+// ----- component used to show error. User can dismiss error by clicking the close button ----- //
 export default function Error(props) {
   return (
     <main className="appointment__card appointment__card--error">

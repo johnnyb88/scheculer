@@ -1,6 +1,6 @@
 import React from "react";
 
-
+// ----- component displays a status message with CSS animation ----- //
 export default function Status(props) {
   return (
     <main className="appointment__card appointment__card--status">

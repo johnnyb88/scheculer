@@ -10,6 +10,8 @@ selected: Boolean - true or false declaring that this day is selected
 setDay: Function accepts the name of the day
 */
 
+
+// ----- shows all the data for a single weekday ----- //
 export default function DayListItem(props) {
 
   let dayClass = classNames('day-list__item', {
