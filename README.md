@@ -32,4 +32,13 @@ npm run storybook
 npm run cypress
 ```
 
+## ScreenShots
+![alt text](https://github.com/johnnyb88/scheduler/blob/master/public/images/schedule1.png?raw=true)
 
+![alt text](https://github.com/johnnyb88/scheduler/blob/master/public/images/addInterview.png?raw=true)
+
+![alt text](https://github.com/johnnyb88/scheduler/blob/master/public/images/added.png?raw=true)
+
+![alt text](https://github.com/johnnyb88/scheduler/blob/master/public/images/deleteInterview.png?raw=true)
+
+![alt text](https://github.com/johnnyb88/scheduler/blob/master/public/images/emptySlot.png?raw=true)
