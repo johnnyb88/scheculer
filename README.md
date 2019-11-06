@@ -1,4 +1,8 @@
 # Interview Scheduler
+This is a project completed at Lighthouse Labs.
+It's a single page application built with React hooks, and allows the user to book an interview with a specific interviewer on any weekday.
+
+
 
 ## Setup
 
@@ -21,3 +25,11 @@ npm test
 ```sh
 npm run storybook
 ```
+
+## Runnning Cypress Test Environment
+
+``` sh
+npm run cypress
+```
+
+
