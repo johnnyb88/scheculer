@@ -7,11 +7,10 @@ interviewers:array - an array of objects containing the information of each inte
 interviewer:number - the id of an interviewer
 onChangeInterviewer:function - a function that accepts an interviewer id
  */
-// it wasn't working then tried with prop.types and it worked. now commented out it still works
-//  InterviewerList.propTypes = {
-//    value: PropTypes.number,
-//    onChange: PropTypes.func.isRequired
-//  }
+ InterviewerList.propTypes = {
+   value: PropTypes.number,
+   onChange: PropTypes.func.isRequired
+ }
  // ----- renders list of individual interviewers ----- //
  export default function InterviewerList(props) {
 

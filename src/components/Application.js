@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import Axios from 'axios';
+import React from "react";
+import axios from 'axios';
 import "components/Application.scss";
 import DayList from "components/DayList";
 import Appointment from "components/Appointment";
@@ -23,7 +23,6 @@ export default function Application(props) {
     .map((appointmentEntry) => {
       const interview = getInterview(state, appointmentEntry.interview);
       const interviewers = getInterviewersForDay(state, state.day);
-      console.log(state.days);
       return (
         <Appointment
         {...appointmentEntry}

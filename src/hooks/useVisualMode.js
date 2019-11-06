@@ -8,15 +8,13 @@ export default function useVisualMode(initialMode) {
   // ----- transition back to previous mode in history array ----- //
   const back = () => {
     setHistory((currentHistory) => {
-      setMode((currentMode) => {
-        if (currentHistory[currentHistory.length - 1] !== initialMode) {
-          setMode(currentHistory[currentHistory.length - 2]);
-          currentHistory.pop();
-          return currentHistory;
-        } else {
-          setMode(currentHistory[currentHistory.length - 1])
-        }
-      })
+      if (currentHistory[currentHistory.length - 1] !== initialMode) {
+        setMode(currentHistory[currentHistory.length - 2]);
+        currentHistory.pop();
+        return currentHistory;
+      } else {
+        setMode(currentHistory[currentHistory.length - 1]);
+      }
       return currentHistory;
     })
   }
